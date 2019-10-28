@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>90</x>
+      <y>50</y>
+      <w>850</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Class
+
+--
+{
+"_id":1, 
+"name":"Intro to Node JS", 
+"enroll":[ 
+"_id":12,
+"grade":100,  
+"students":[{"_id":1,"first_name":"Wendy","last_name":"Portillo","mi":"Y"},                                  
+                 {"_id":2,"first_name":"Shane","last_name":"Reeves","mi":"M"},
+				             ]
+			         ]
+}
+ 
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>90</x>
+      <y>330</y>
+      <w>850</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Student
+
+--
+{
+"_id":1, 
+"first_name":"Wendy", 
+"last_name":"Portillo", 
+"mi":"Y",
+"enroll":["_id":2,"grade":90,
+"class":[{"_id":714,"name":"Intro to Web Developement"},
+            {"_id":909,"name":"Intro to Javascript"}
+            ]
+           ]
+}
+
+ 
+style=wordwrap</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
