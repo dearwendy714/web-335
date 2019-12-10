@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>50</x>
+      <y>130</y>
+      <w>890</w>
+      <h>400</h>
+    </coordinates>
+    <panel_attributes>Data Structure
+--
+{
+"author_first_name":"J. K.",
+"author_last_name":"Rowling",
+"author_phone":"121221121",
+"author_email":"J.K.Hogwarts@gmail.com",
+"books":[
+		{"book_name":"The Philosopher's Stone","book_price":"19.99", "book_isbn":123456789 },
+		{"book_name":"The Chamber of Secrets","book_price":"19.99", "book_isbn":101112131 },
+		{"book_name":"The Prisoner of Azkaban","book_price":"19.99", "book_isbn":141516171 },
+		{"book_name":"The Goblet of Fire","book_price":"19.99", "book_isbn":181920212 },
+		]
+"publisher": {"publisher_name": "Publishers Inc", "publisher_code":123456, "publisher_address":"800 Deathly Hallow St.},
+ }
+
+
+		
+		
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

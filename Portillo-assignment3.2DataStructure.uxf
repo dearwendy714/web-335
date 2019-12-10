@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>20</x>
+      <y>20</y>
+      <w>540</w>
+      <h>420</h>
+    </coordinates>
+    <panel_attributes>NoSQL Data Structure
+--
+{
+	"first_name": "Wendy",
+	"last_name": "Portillo",
+	"age":30, 
+	"gender": "female",
+	"LINK_USER_ROLE":
+		{"ROLE":user,
+			"LINK_ROLE_PERMISSIONS": [
+			{"contributor":false,"admin":false },
+			{"contributor":true,"admin":true },
+			],
+			"PERMISSION":"none",
+		},
+		"LINK_USER_ROLE"
+		 {"ROLE":user2,
+		  "LINK_ROLE_PERMSISSIONS":[
+		  	{"contributor":false,"admin":false },
+			{"contributor":true,"admin":true }
+			]
+			"PERMISSION":"none",
+			},
+
+		},
+
+	
+		
+		
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>

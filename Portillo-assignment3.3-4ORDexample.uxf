@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>430</x>
+      <y>140</y>
+      <w>310</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Books
+--
+{
+"book_name":"The Philosopher's Stone",
+"book_price":"19.99", 
+"book_isbn":123456789
+}
+
+		
+		
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>850</x>
+      <y>140</y>
+      <w>290</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Publisher
+--
+{
+"publisher_name": "Publishers Inc",
+"publisher_code":123456,
+"publisher_address":"800 Deathly Hallow St."
+}
+
+		
+		
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>310</x>
+      <y>160</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-
+
+m1=1.*
+
+m2= 1.*
+
+</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>140</y>
+      <w>320</w>
+      <h>140</h>
+    </coordinates>
+    <panel_attributes>Author
+--
+{
+"author_first_name":"J. K.",
+"author_last_name":"Rowling",
+"author_phone":"121221121",
+"author_email":"J.K.Hogwarts@gmail.com",
+}
+		
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>730</x>
+      <y>160</y>
+      <w>140</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-
+
+m1=1.*
+
+m2= 1.1
+
+</panel_attributes>
+    <additional_attributes>10.0;20.0;120.0;20.0</additional_attributes>
+  </element>
+</diagram>

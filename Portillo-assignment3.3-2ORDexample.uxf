@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>280</x>
+      <y>130</y>
+      <w>450</w>
+      <h>210</h>
+    </coordinates>
+    <panel_attributes>Business Rule
+--
+
+1. An author can have many books
+2. A book can have many authors
+ 
+3. A book can have one publisher
+4. A publisher can have many books
+
+
+		
+		
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
